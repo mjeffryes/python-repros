@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "python-repros"
+version = "0.1.0"
+description = ""
+authors = ["mjeffryes@pulumi.com"]
+readme = "README.md"
+packages = [{include = "python_repros"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pulumi = "^3.76.1"
+

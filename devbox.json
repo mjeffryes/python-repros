@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "python3@latest",
+    "poetry@latest",
+    "pulumi@latest",
+    "pulumi-bin@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "rm -Rf ./venv/ && python -m venv ./venv && source ./venv/bin/activate && poetry install"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
