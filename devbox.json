@@ -2,11 +2,11 @@
   "packages": [
     "python3@latest",
     "poetry@latest",
-    "pulumi@latest",
-    "pulumi-bin@latest"
   ],
   "shell": {
     "init_hook": [
+      "export PATH=$(pwd)/.pulumi/bin:$PATH",
+      "make",
       "rm -Rf ./venv/ && python -m venv ./venv && source ./venv/bin/activate && poetry install"
     ],
     "scripts": {

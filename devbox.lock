@@ -3,18 +3,9 @@
   "packages": {
     "poetry@latest": {
       "last_modified": "2023-07-25T23:32:12Z",
+      "plugin_version": "0.0.3",
       "resolved": "github:NixOS/nixpkgs/a9b47d85504bdd199e90846622c76aa0bfeabfac#poetry",
       "version": "1.5.1"
-    },
-    "pulumi-bin@latest": {
-      "last_modified": "2023-07-25T23:32:12Z",
-      "resolved": "github:NixOS/nixpkgs/a9b47d85504bdd199e90846622c76aa0bfeabfac#pulumi-bin",
-      "version": "3.72.1"
-    },
-    "pulumi@latest": {
-      "last_modified": "2023-07-25T23:32:12Z",
-      "resolved": "github:NixOS/nixpkgs/a9b47d85504bdd199e90846622c76aa0bfeabfac#pulumi",
-      "version": "3.72.2"
     },
     "python3@latest": {
       "last_modified": "2023-07-25T23:32:12Z",
