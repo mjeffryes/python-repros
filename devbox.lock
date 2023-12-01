@@ -1,6 +1,26 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "azure-cli@latest": {
+      "last_modified": "2023-11-26T05:37:23Z",
+      "resolved": "github:NixOS/nixpkgs/abbe047fb8a5a7074b6de24cced0dbdb27ea0ea8#azure-cli",
+      "source": "devbox-search",
+      "version": "2.53.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/k27h566b7llwdi4s0p5x8fls8pdx8kjc-python3.11-azure-cli-2.53.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/9h2x14z7lqjjn23nzqx9zdk4x0kwkrya-python3.11-azure-cli-2.53.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/nh6wc0dq80sch336sl10dqalhg8rp3y8-python3.11-azure-cli-2.53.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/4qqgyl031dc3g7q51sx2jydbk5ck69ks-python3.11-azure-cli-2.53.1"
+        }
+      }
+    },
     "poetry@latest": {
       "last_modified": "2023-07-25T23:32:12Z",
       "plugin_version": "0.0.3",

@@ -1,0 +1,4 @@
+config:
+  azure-native:location: eastus
+  python-repros:resource-name-prefix: bob
+  python-repros:sql-server-password: password

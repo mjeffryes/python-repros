@@ -2,6 +2,7 @@
   "packages": [
     "python3@latest",
     "poetry@latest",
+    "azure-cli@latest"
   ],
   "shell": {
     "init_hook": [

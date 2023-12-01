@@ -9,4 +9,5 @@ packages = [{include = "python_repros"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pulumi = "^3.76.1"
+pulumi-azure-native = "^2.20.0"
 
